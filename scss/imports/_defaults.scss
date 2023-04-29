@@ -2,21 +2,19 @@
     /* FONTS */
     @font-face {
         font-family: "Big Schoulders Display";
-        src: url("../../assets/fonts/BigShouldersDisplay-VariableFont_wght.ttf")
-            format("ttf");
+        src: url("../../assets/fonts/BigShouldersDisplay.ttf");
         font-weight: 700;
         font-display: swap;
     }
     @font-face {
         font-family: "Lexend Deca";
-        src: url("../../assets/fonts/LexendDeca-VariableFont_wght.ttf")
-            format("ttf");
+        src: url("../../assets/fonts/LexendDeca-VariableFont_wght.ttf");
         font-weight: 400;
         font-display: swap;
     }
 
     --font-family-primary: "Lexend Deca", sans-serif;
-    --font-family-secondary: "Big Schoulders Display", sans-serif;
+    --font-family-secondary: "Big Schoulders Display", cursive;
 
     --font-color: var(--clr-neutral-100-alpha);
     --font-color-secondary: var(--clr-neutral-200);
