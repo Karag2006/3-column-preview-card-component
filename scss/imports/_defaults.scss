@@ -1,9 +1,30 @@
 :root {
-    --font-family: "Ubuntu", sans-serif;
+    /* FONTS */
+    @font-face {
+        font-family: "Big Schoulders Display";
+        src: url("../../assets/fonts/BigShouldersDisplay-VariableFont_wght.ttf")
+            format("ttf");
+        font-weight: 700;
+        font-display: swap;
+    }
+    @font-face {
+        font-family: "Lexend Deca";
+        src: url("../../assets/fonts/LexendDeca-VariableFont_wght.ttf")
+            format("ttf");
+        font-weight: 400;
+        font-display: swap;
+    }
 
-    --font-color: black;
-    --error-color: red;
-    --background-color: var(--magnolia);
+    --font-family-primary: "Lexend Deca", sans-serif;
+    --font-family-secondary: "Big Schoulders Display", sans-serif;
+
+    --font-color: var(--clr-neutral-100-alpha);
+    --font-color-secondary: var(--clr-neutral-200);
+    --font-color-error: crimson;
+
+    --font-size: var(--fs-400);
+
+    --background-color: var(--clr-neutral-200);
 }
 
 *,
@@ -35,8 +56,9 @@ img {
 }
 
 body {
-    font-family: var(--font-family);
-    font-weight: 400;
+    font-family: var(--font-family-primary);
+    font-weight: var(--fw-regular);
+    font-size: var(--font-size);
     color: var(--font-color);
     background-color: var(--background-color);
 }

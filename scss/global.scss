@@ -6,3 +6,15 @@ body {
     min-height: 100vh;
     padding: 3rem;
 }
+
+footer {
+    padding-block: 1.5rem;
+    font-size: var(--fs-attribution);
+    text-align: center;
+    font-weight: var(--fw-medium);
+    color: var(--clr-attribution);
+    a {
+        color: var(--clr-attribution-link);
+        font-weight: var(--fw-bold);
+    }
+}
