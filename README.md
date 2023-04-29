@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Frontend Mentor Solution Page](https://www.frontendmentor.io/solutions/multistep-form-challenge-with-vuejs-pinia-rp-dp5e3ds)
+-   Solution URL: [Frontend Mentor Solution Page](https://www.frontendmentor.io/solutions/3column-preview-card-component-Ibq0NBbvZV)
 -   Live Site URL: [Live Application](https://3-column-preview-card-component-mr.netlify.app/)
 
 ## My process
